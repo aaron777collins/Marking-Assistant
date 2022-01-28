@@ -129,7 +129,7 @@ function getVTableOfElementsMA() {
 
 //#############
 function getNumRowsOfNames() {
-  return parseInt(SpreadsheetApp.getActiveSpreadsheet().getSheetByName(NAMES_SHEET_NAME).getRange(2, 2).getValue());
+  return parseInt(SpreadsheetApp.getActiveSpreadsheet().getSheetByName(NAMES_SHEET_NAME).getRange(2, 4).getValue());
 }
 
 function getVTableOfNames() {
